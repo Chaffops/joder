@@ -17,14 +17,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void empezarJuego(View vista){
+
         Intent iJuego=new Intent(this,PantallaJuego.class);
         startActivity(iJuego);
 
     }
 
     public void ajustar(View v){
+
         DialogoFragment dialogo=new DialogoFragment();
         dialogo.show(getSupportFragmentManager(),"DialogoFragment");
+
     }
 
 }
