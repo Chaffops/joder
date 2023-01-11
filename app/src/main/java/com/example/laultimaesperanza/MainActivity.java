@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     public void ajustar(View v){
         DialogoFragment dialogo=new DialogoFragment();
         dialogo.show(getSupportFragmentManager(),"DialogoFragment");
-
     }
 
 }
